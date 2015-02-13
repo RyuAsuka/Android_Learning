@@ -1,5 +1,6 @@
 package edu.ecnu.asuka.androidlearning;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
@@ -13,10 +14,13 @@ import android.widget.EditText;
 public class MainActivity extends Activity {
 
     public final static String EXTRA_MESSAGE = "com.mycompany.myfirstapp.MESSAGE";
+
+    protected ActionBar actionBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        actionBar = getActionBar();
     }
 
 
@@ -50,5 +54,14 @@ public class MainActivity extends Activity {
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
+    }
+
+    public void showActionBar(View view){
+        actionBar.show();
+
+    }
+
+    public void hideActionBar(View view){
+        actionBar.hide();
     }
 }
