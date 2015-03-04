@@ -7,5 +7,16 @@
     <string name="button_send">Send</string>
     <string name="title_activity_display_message">My Message</string>
     <string name="hello_world">Hello world!</string>
+    <string name="font_size">Font Size</string>
+    <string name="font_10">font 10</string>
+    <string name="font_12">font 12</string>
+    <string name="font_14">font 14</string>
+    <string name="font_16">font 16</string>
+    <string name="font_18">font 18</string>
+    <string name="plain_item">Plain Item</string>
+    <string name="font_color">Font Color</string>
+    <string name="red_font">Red</string>
+    <string name="green_font">Green</string>
+    <string name="blue_font">Blue</string>
 
 </resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/red"
+              android:title="@string/red_font"
+              android:alphabeticShortcut="r"></item>
+        <item android:id="@+id/green"
+              android:title="@string/green_font"
+              android:alphabeticShortcut="g"></item>
+        <item android:id="@+id/blue"
+              android:title="@string/blue_font"
+              android:alphabeticShortcut="b"></item>
+    </group>
+</menu>
